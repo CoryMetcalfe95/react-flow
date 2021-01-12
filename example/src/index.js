@@ -21,85 +21,14 @@ import SaveRestore from './SaveRestore';
 import DragNDrop from './DragNDrop';
 import Layout from './Layouting';
 import SwitchFlows from './Switch';
+import DatabowlBasicFlow from './DatabowlBasicFlow';
 
 import './index.css';
 
 const routes = [
   {
-    path: '/',
-    component: Overview,
-  },
-  {
-    path: '/edges',
-    component: Edges,
-  },
-  {
-    path: '/custom-node',
-    component: CustomNode,
-  },
-  {
-    path: '/validation',
-    component: Validation,
-  },
-  {
-    path: '/provider',
-    component: Provider,
-  },
-  {
-    path: '/stress',
-    component: Stress,
-  },
-  {
-    path: '/interaction',
-    component: Interaction,
-  },
-  {
-    path: '/basic',
-    component: Basic,
-  },
-  {
-    path: '/empty',
-    component: Empty,
-  },
-  {
-    path: '/hidden',
-    component: Hidden,
-  },
-  {
-    path: '/edge-types',
-    component: EdgeTypes,
-  },
-  {
-    path: '/custom-connectionline',
-    component: CustomConnectionLine,
-  },
-  {
-    path: '/nodetype-change',
-    component: NodeTypeChange,
-  },
-  {
-    path: '/updatable-edge',
-    component: UpdatableEdge,
-  },
-  {
-    path: '/update-node',
-    component: UpdateNode,
-  },
-  {
-    path: '/save-restore',
-    component: SaveRestore,
-  },
-  {
-    path: '/drag-and-drop',
-    component: DragNDrop,
-  },
-  {
-    path: '/layouting',
-    component: Layout,
-  },
-  {
-    path: '/switch',
-    component: SwitchFlows,
+    path: '/databowl-basic-flow',
+    component: DatabowlBasicFlow,
   },
 ];
 
